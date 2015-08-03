@@ -1,14 +1,14 @@
 <?php
 
 /*
-Plugin Name: Photo Gallery
-Description: Photo Gallery for WP/LR Sync.
-Version: 1.0.0
+Plugin Name: Photo Gallery for Lightroom (WP/LR Extension)
+Description: Photo Gallery Extension for WP/LR Sync.
+Version: 0.1.0
 Author: Jordy Meow
 Author URI: http://www.meow.fr
 */
 
-class Meow_WPLR_Sync_Plugin_PhotoGallery {
+class WPLR_Extension_PhotoGallery {
 
   public function __construct() {
 
@@ -149,6 +149,6 @@ class Meow_WPLR_Sync_Plugin_PhotoGallery {
 
 }
 
-new Meow_WPLR_Sync_Plugin_PhotoGallery;
+new WPLR_Extension_PhotoGallery;
 
 ?>
